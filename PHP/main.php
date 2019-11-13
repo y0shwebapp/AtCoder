@@ -1,5 +1,3 @@
-<?php
-    echo 10;
+$sc = new Scanner();
+$n = $sc->nextInt();
 
-
-?>
