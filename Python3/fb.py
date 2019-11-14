@@ -7,7 +7,11 @@ def fib1(n):
 
 def fib2(n):
   n0, n1 = 0, 1
-  for cnt in range(n):
+  if n == 0:
+      return 0
+  if n == 1:
+      return 1
+  for _ in range(n):
     n0, n1 = n1, n0 + n1
   return n1
 
