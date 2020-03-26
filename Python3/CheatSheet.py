@@ -63,3 +63,16 @@ import re
 s='hoge6hoge21foo:bar'
 re.findall(r'[a-z]+',s) #['hoge', 'hoge', 'foo', 'bar']
 re.findall(r'[a-z0-9]+',s) # ['hoge6hoge21foo', 'bar']
+
+# import関連
+
+# AAA.py
+# def func():
+import AAA              # モジュール[AAA]を呼び出す
+AAA.func()
+
+import AAA as A         # モジュール[AAA]を呼び出し、別名を付ける[A]
+A.func()                # 別名で呼べる
+
+from AAA import func    # モジュールの[func()]のみを呼び出す
+func()                  # モジュール名無しで呼び出せる
