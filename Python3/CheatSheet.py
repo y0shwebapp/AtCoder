@@ -1,11 +1,11 @@
 
 
 # 入力
-#a1=input()                      # input='abc'  a1='abc'
-#a2=list(input())                # input='abc'  a2=['a','b','c']
-#a3=int(input())                 # input='5'    a3=5
-#a4,a5=map(int,input().split())  # input='1 2'  a4=1,a5=2
-#a6=[int(x) for x in input().split()]   # input='4 5'   a6=20
+a1=input()                      # input='abc'  a1='abc'
+a2=list(input())                # input='abc'  a2=['a','b','c']
+a3=int(input())                 # input='5'    a3=5
+a4,a5=map(int,input().split())  # input='1 2'  a4=1,a5=2
+a6=[int(x) for x in input().split()]   # input='4 5'   a6=20
 
 # 出力
 s1='hoge'

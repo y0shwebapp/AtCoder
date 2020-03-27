@@ -1,11 +1,13 @@
+
+# xをn進数に変換
+def To_Base_number(x, n):
+    ret = []
+    while x > 0:
+        ret.insert(0, x % n)
+        x = x // n
+    return ''.join(map(str, ret))
+
+
 N,K = map(int, input().split())
+print(len(To_Base_number(N, K)))
 
-r = 0
-ans = 0
-for i in range(N):
-    r = K ** (i + 1)
-    ans += 1
-    if r >= N:
-        break
-
-print(ans)

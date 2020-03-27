@@ -1,26 +1,12 @@
-import time
+N = input()
+A = [int(x) for x in input().split()]
 
-start = time.time()
+ans = 'APPROVED'
+for a in A:
+    if a % 2 == 0:
+        if a % 3 != 0 and a % 5 != 0:
+            ans = 'DENIED'
+            break
 
-a = 1
-
-
-def main():
-    print("hello.")
-
-
-# for i in range(10**9):
-#     a = i
-
-# print(i)
-
-proc_time = time.time() - start
-
-print(proc_time)
-
-
-
-
-
-
+print(ans)
 
