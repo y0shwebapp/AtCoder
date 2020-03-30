@@ -28,10 +28,27 @@ for i in range(len(ans)):
     if ans[i] == '':
         ans[i] = '0'
 
-if ans[len(ans) - 1] == '0':
+if ans[0] == '0':
     print('-1')
     sys.exit(0)
 
 ret = ''.join(map(str, ans))
     
 print(ret)
+
+
+n,m=map(int,input().split())
+a=[list(map(int,input().split())) for i in range(m)]
+ 
+l=10**(n-1)
+if n==1:
+    l=0
+for i in range(l,10**n):
+    s=str(i)
+    for x,y in a:
+        if s[x-1]!=str(y):
+            break
+    else:
+        print(i)
+        exit()
+print(-1)
