@@ -1,0 +1,10 @@
+D:\_projects\AtCoder\CSharp\LocalTest用\bin\Debug\LocalTest用.exe.config
+D:\_projects\AtCoder\CSharp\LocalTest用\bin\Debug\LocalTest用.exe
+D:\_projects\AtCoder\CSharp\LocalTest用\bin\Debug\LocalTest用.pdb
+D:\_projects\AtCoder\CSharp\LocalTest用\bin\Debug\AtCoder_Cs.exe
+D:\_projects\AtCoder\CSharp\LocalTest用\bin\Debug\AtCoder_Cs.pdb
+D:\_projects\AtCoder\CSharp\LocalTest用\bin\Debug\AtCoder_Cs.exe.config
+D:\_projects\AtCoder\CSharp\LocalTest用\obj\Debug\LocalTest用.csprojAssemblyReference.cache
+D:\_projects\AtCoder\CSharp\LocalTest用\obj\Debug\LocalTest用.csproj.CopyComplete
+D:\_projects\AtCoder\CSharp\LocalTest用\obj\Debug\LocalTest用.exe
+D:\_projects\AtCoder\CSharp\LocalTest用\obj\Debug\LocalTest用.pdb
