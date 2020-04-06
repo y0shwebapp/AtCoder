@@ -10,17 +10,21 @@ namespace AtCoder_Cs
     {
         public static void Main()
         {
-            decimal[] vs = Console.ReadLine().Split().Select(decimal.Parse).ToArray();
-            decimal ans = 0;
-            if (vs[1] > 1)
+            var N = long.Parse(Console.ReadLine());
+            long ret = N;
+
+
+            for (long i = 1;i * i <= N;i++)
             {
-                ans = 1;
+                if (N % i == 0)
+                {
+                    long r = (i - 1) + (N / i) - 1;
+                    if(r < ret) { ret = r; }
+                    //break;
+                }
             }
-            if (vs[0] < vs[1])
-            {
-                ans = 1 + Math.Ceiling((vs[1] - vs[0]) / (vs[0] - 1));
-            }
-            Console.WriteLine(  ans);
+
+            Console.WriteLine($"{ret}");
         }
     }
 

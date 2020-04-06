@@ -1,6 +1,0 @@
-D:\_projects\AtCoder\CSharp\AtCoder_Cs\bin\Debug\AtCoder_Cs.exe.config
-D:\_projects\AtCoder\CSharp\AtCoder_Cs\bin\Debug\AtCoder_Cs.exe
-D:\_projects\AtCoder\CSharp\AtCoder_Cs\bin\Debug\AtCoder_Cs.pdb
-D:\_projects\AtCoder\CSharp\AtCoder_Cs\obj\Debug\AtCoder_Cs.csprojAssemblyReference.cache
-D:\_projects\AtCoder\CSharp\AtCoder_Cs\obj\Debug\AtCoder_Cs.exe
-D:\_projects\AtCoder\CSharp\AtCoder_Cs\obj\Debug\AtCoder_Cs.pdb
