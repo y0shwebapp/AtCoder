@@ -1,38 +1,28 @@
-# N = int(input())
-# dic = {}
-# for i in range(1, N + 1):
-#     dic[i] = int(input())
-
-
-# routedLst = []
-
-# def NextRoute(i):
-#     x = dic[i]
-#     if x in routedLst:
-#         return -1
-    
-#     routedLst.append(x)
-
-#     if x == 2:
-#         return len(routedLst)
-#     else:
-#         return NextRoute(x)
-
-# print(NextRoute(1))
-
 N = int(input())
-lst = [int(input()) for _ in range(N)]
+dic = {}
 
-cnt = 0
-idx = 0
+isFirst = True
+for i in range(1, N + 1):
+    # dic[i] = int(input())
+    if isFirst:
+        dic[i] = N
+        isFirst= False
+    else:
+        dic[i] = i - 1
 
-while True :
-    x = lst[idx]
+
+routedLst = []
+
+def NextRoute(i):
+    x = dic[i]
+    if x in routedLst:
+        return -1
+    
+    routedLst.append(x)
+
     if x == 2:
-        print(cnt)
-        exit()
-    cnt += 1
-    idx = x - 1
-    if cnt > N:
-        print(-1)
-        exit()
+        return len(routedLst)
+    else:
+        return NextRoute(x)
+
+print(NextRoute(1))
